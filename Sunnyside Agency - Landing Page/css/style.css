@@ -2,7 +2,6 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Barlow";
 }
 
 .attribution {
@@ -14,6 +13,78 @@
   color: hsl(228, 45%, 44%);
 }
 
+/* General */
+html {
+  font-family: "Barlow";
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Main Navigation */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #3ebfff;
+  padding: 20px 20px;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  padding: 20px;
+}
+
+header nav ul li a {
+  color: hsl(0, 0%, 100%);
+}
+
+.contact {
+  color: hsl(212, 27%, 19%);
+  text-transform: uppercase;
+  font-family: "Fraunces";
+  font-size: 16px;
+  border: 1px solid white;
+  padding: 10px 20px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 25px;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../images/desktop/image-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 100px);
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: "Fraunces";
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  font-size: 52px;
+  letter-spacing: 6px;
+  word-spacing: 8px;
+  padding-top: 130px;
+}
+
+.hero-section img {
+  padding-top: 100px;
+}
 /*
 # Front-end Style Guide
 
