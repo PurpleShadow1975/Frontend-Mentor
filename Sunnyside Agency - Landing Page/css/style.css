@@ -14,76 +14,7 @@
   color: hsl(228, 45%, 44%);
 }
 
-/* Header and Hero Section*/
-
-.hero-section {
-  background-image: url(../images/desktop/image-header.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 96vh;
-  display: flex;
-  flex-direction: column;
-  padding-top: 150px;
-  align-items: center;
-}
-
-h1 {
-  text-transform: uppercase;
-  font-family: "Fraunces";
-  color: hsl(0, 0%, 100%);
-  font-weight: 900;
-  font-size: 56px;
-  text-align: center;
-  letter-spacing: 4px;
-  word-spacing: 8px;
-  padding-bottom: 90px;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  background-color: #3ebfff;
-  padding: 20px;
-}
-
-header nav ul {
-  display: flex;
-}
-
-header nav ul li {
-  list-style: none;
-}
-
-header nav ul li a {
-  text-decoration: none;
-  padding: 20px;
-  font-size: 18px;
-  color: hsl(0, 0%, 100%);
-}
-
-/* Transform Section */
-.transform-section,
-.standout-section,
-.whatwedo-section,
-.testimonial-section,
-.gallery-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.graphic {
-  background-image: url(../images/desktop/image-graphic-design.jpg);
-}
-
-.photography {
-  background-image: url(../images/desktop/image-photography.jpg);
-}
-
-h2 {
-  font-family: "Fraunces";
-}
-/* 
+/*
 # Front-end Style Guide
 
 ## Layout
