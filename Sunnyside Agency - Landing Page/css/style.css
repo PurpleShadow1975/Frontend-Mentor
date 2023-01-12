@@ -216,6 +216,68 @@ h4 {
 
 .testimonials {
   display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 150px;
+}
+
+.testimonial-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial-item img {
+  border-radius: 50%;
+  width: 80px;
+  margin-bottom: 50px;
+}
+
+.testimonial-item p {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: hsl(232, 10%, 55%);
+}
+
+.testimonial {
+  padding-bottom: 50px;
+}
+
+.name {
+  font-family: "Fraunces";
+  color: hsl(212, 27%, 19%) !important;
+}
+
+.title {
+  font-size: 14px;
+  color: hsl(210, 4%, 67%);
+  padding-top: 10px;
+}
+
+/* Gallery section */
+.gallery {
+  display: flex;
+}
+
+.gallery img {
+  width: 25%;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #73c0b1;
+  color: hsl(168, 34%, 41%);
+  padding: 50px 0;
+}
+
+footer ul {
+  display: flex;
+  padding: 50px 0;
 }
 /*
 # Front-end Style Guide
